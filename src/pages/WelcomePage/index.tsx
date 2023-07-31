@@ -3,6 +3,7 @@ import { Column } from "@/components/column.ts";
 import { PinPad } from "./containers/PinPad.tsx";
 import { Header } from "./containers/Header.tsx";
 import { Footer } from "./containers/Footer.tsx";
+
 const WelcomeBoard = lazy(() => import("./containers/WelcomeBoard"));
 export function WelcomePage() {
   const [hasLoggedIn, setHasLoggedIn] = useState(false);
@@ -10,7 +11,7 @@ export function WelcomePage() {
     <Column>
       <Header />
       {!hasLoggedIn && <PinPad onLogIn={() => setHasLoggedIn(true)} />}
-      <Suspense fallback={<></>}>{hasLoggedIn && <WelcomeBoard />}</Suspense>
+      <Suspense fallback={null}>{hasLoggedIn && <WelcomeBoard />}</Suspense>
       <Footer />
     </Column>
   );

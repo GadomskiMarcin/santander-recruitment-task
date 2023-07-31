@@ -11,4 +11,4 @@ export const PIN_PAD_INFO = {
   error: "Invalid Pin \n Try Again",
 };
 
-export const DEFAULT_LOG_IN_TEXT = 'LOGIN';
+export const DEFAULT_LOG_IN_TEXT = "LOGIN";

@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { maskPin } from "../utils.ts";
 import { ButtonsWrapper } from "../components/ButtonsWrapper.ts";
 import {
-  BUTTONS_VALUES, DEFAULT_LOG_IN_TEXT,
+  BUTTONS_VALUES,
+  DEFAULT_LOG_IN_TEXT,
   DEFAULT_PIN,
   PIN_MAX_LENGTH,
   PIN_MIN_LENGTH,

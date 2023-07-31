@@ -24,6 +24,7 @@ export function SantanderLogoSVG() {
   );
 }
 
+// Asset santander-logo-vertical
 export function SantanderLogoVerticalSVG() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={144} height={44}>
@@ -35,6 +36,7 @@ export function SantanderLogoVerticalSVG() {
   );
 }
 
+// Asset remove-button
 export function RemoveButtonSVG() {
   return (
     <svg

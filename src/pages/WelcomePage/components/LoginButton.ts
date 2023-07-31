@@ -15,6 +15,8 @@ export const LoginButton = styled.button`
   margin: 12px auto;
   font-weight: bold;
   font-family: "Helvetica", serif;
+  line-height: 0;
+  letter-spacing: 1px;
 
   &:hover {
     background-color: ${defaultStyle.colors.SUCCESS_GREEN};

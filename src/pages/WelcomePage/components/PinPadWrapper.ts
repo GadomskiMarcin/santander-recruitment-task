@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Column } from "@/components/column.ts";
+import { defaultStyle } from "@/styles/defaultStyle.ts";
 
 export const PinPadWrapper = styled(Column)`
   text-align: center;
@@ -7,6 +8,6 @@ export const PinPadWrapper = styled(Column)`
   margin: 0 auto;
   gap: 10px;
   color: #333;
-  border-radius: 5px;
-  box-shadow: -1px -2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: ${defaultStyle.sizes.pinpad.borderRadius};
+  box-shadow: 0px -1px 2px 4px rgba(0, 0, 0, 0.1);
 `;
